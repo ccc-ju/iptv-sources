@@ -3,7 +3,7 @@ name: update readme
 on:
   workflow_dispatch: # 支持手动触发
   schedule:
-    - cron: "0/5 * * * *"
+    - cron: "0/1 * * * *"
 jobs:
   update-readme:
     runs-on: ubuntu-latest
