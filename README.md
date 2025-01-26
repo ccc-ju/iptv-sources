@@ -2,9 +2,8 @@
 
 Autoupdate iptv sources
 
-GitHub: [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources)
+GitHub: [iptv-sources](https://github.com/ccc-ju/iptv-sources)
 
-Join discord: [![Discord](https://discord.badge.ibert.me/api/server/betxHcsTqa)](https://discord.gg/betxHcsTqa)
 
 Sources are from:
 
@@ -23,9 +22,6 @@ EPG Sources are from:
 - [112114.xyz](https://diyp1.112114.xyz)
 - [epg.51zmt.top:8000](http://epg.51zmt.top:8000/)
 
-## Matrix
-
-You can also use the services provided by Mirror Sites Matrix! See <https://m3u.ibert.me> for more.
 
 <!-- matrix_here -->
 ## Channel
@@ -67,7 +63,7 @@ You can also use the services provided by Mirror Sites Matrix! See <https://m3u.
 
 Updated at **Sun Jan 26 2025 18:25:45 GMT+0000 (Coordinated Universal Time)**
 
-See <https://m3u.ibert.me> to get more.
+See <https://m3u.cjuju.us.kg/> to get more.
 
 ## LICENSE
 
