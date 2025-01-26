@@ -2,10 +2,6 @@ name: Update README
 
 on:
   workflow_dispatch:  # 支持手动触发
-  push:
-    branches:
-      # 确保监控的是你部署的分支
-      - gh-pages
   schedule:
     # 每5分钟运行一次（可根据需要调整）
     - cron: '*/5 * * * *'
