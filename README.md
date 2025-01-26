@@ -8,7 +8,6 @@ Autoupdate iptv sources
 [![Docker Pulls](https://img.shields.io/docker/pulls/herberthe0229/iptv-sources?style=flat-square)](https://hub.docker.com/r/herberthe0229/iptv-sources)
 [![Docker Stars](https://img.shields.io/docker/stars/herberthe0229/iptv-sources?style=flat-square)](https://hub.docker.com/r/herberthe0229/iptv-sources)
 
-Join discord: [![Discord](https://discord.badge.ibert.me/api/server/betxHcsTqa)](https://discord.gg/betxHcsTqa)
 
 Sources are from:
 
@@ -27,7 +26,7 @@ EPG Sources are from:
 - [112114.xyz](https://diyp1.112114.xyz)
 - [epg.51zmt.top:8000](http://epg.51zmt.top:8000/)
 
-See <https://m3u.ibert.me> to get more.
+See <https://m3u.cjuju.us.kg/> to get more.
 
 ## Deploy by yourself
 
