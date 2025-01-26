@@ -1,4 +1,4 @@
-name: Update README in ph-pages
+name: update readme
 
 on:
   workflow_dispatch: # 支持手动触发
@@ -10,7 +10,7 @@ jobs:
 
     steps:
       # 检出 ph-pages 分支
-      - name: Checkout ph-pages branch
+      - name: Checkout gh-pages branch
         uses: actions/checkout@v4
         with:
           ref: ph-pages # 指定检出的分支为 ph-pages
@@ -46,7 +46,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto-update README in ph-pages: replaced links and removed sections"
-            git push origin HEAD:ph-pages
+            git push origin HEAD:gh-pages
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
