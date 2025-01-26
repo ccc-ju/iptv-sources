@@ -1,0 +1,52 @@
+name: Update README in ph-pages
+
+on:
+  workflow_dispatch: # 支持手动触发
+  schedule:
+    - cron: "0/5 * * * *"
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 检出 ph-pages 分支
+      - name: Checkout ph-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: ph-pages # 指定检出的分支为 ph-pages
+
+      # 替换和删除 README 内容
+      - name: Replace and Remove Content in README
+        run: |
+          # 替换 GitHub 链接
+          sed -i 's|GitHub: \[HerbertHe/iptv-sources\](https://github.com/HerbertHe/iptv-sources)|GitHub: [iptv-sources](https://github.com/ccc-ju/iptv-sources)|g' README.md
+
+          # 删除 Discord 内容
+          sed -i '/Join discord: \[!\[Discord\](https:\/\/discord\.badge\.ibert\.me\/api\/server\/betxHcsTqa)\](https:\/\/discord\.gg\/betxHcsTqa)/d' README.md
+
+          # 删除 Matrix 部分
+          sed -i '/## Matrix/,/m3u.ibert.me/d' README.md
+
+          # 替换链接内容
+          sed -i 's|See <https://m3u.ibert.me> to get more.|See <https://m3u.cjuju.us.kg/> to get more.|g' README.md
+
+      # 打印修改后的 README 内容
+      - name: Print Updated README
+        run: |
+          echo "Updated README Content:"
+          cat README.md
+
+      # 提交和推送修改到 ph-pages 分支
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update README in ph-pages: replaced links and removed sections"
+            git push origin HEAD:ph-pages
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
