@@ -13,7 +13,7 @@ jobs:
       - name: Checkout gh-pages branch
         uses: actions/checkout@v4
         with:
-          ref: ph-pages # 指定检出的分支为 ph-pages
+          ref: gh-pages # 指定检出的分支为 gh-pages
 
       # 替换和删除 README 内容
       - name: Replace and Remove Content in README
