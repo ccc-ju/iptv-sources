@@ -2,7 +2,7 @@
 
 Autoupdate iptv sources
 
-GitHub: [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources)
+GitHub: [iptv-sources](https://github.com/ccc-ju/iptv-sources)
 
 Sources are from:
 
