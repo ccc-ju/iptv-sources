@@ -1,6 +1,7 @@
 name: update schedule
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */2 * * *"
 
@@ -23,6 +24,27 @@ jobs:
           cache: "npm"
       - name: install yarn
         run: npm install yarn -g
+
+      - name: Replace and Remove Content in README
+        run: |
+          sed -i 's|GitHub: \[HerbertHe/iptv-sources\](https://github.com/HerbertHe/iptv-sources)|GitHub: [iptv-sources](https://github.com/ccc-ju/iptv-sources)|g' README.md
+
+          sed -i '/Join discord: \[!\[Discord\](https:\/\/discord\.badge\.ibert\.me\/api\/server\/betxHcsTqa)\](https:\/\/discord\.gg\/betxHcsTqa)/d' README.md
+
+          sed -i '/## Matrix/,/m3u.ibert.me/d' README.md
+
+          sed -i 's|See <https://m3u.ibert.me> to get more.|See <https://m3u.cjuju.us.kg/> to get more.|g' README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Auto-update README: replaced links and removed sections"
+          git push origin HEAD:gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
       - run: yarn install
       - run: yarn build
       - run: yarn m3u
