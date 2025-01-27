@@ -2,8 +2,9 @@
 
 Autoupdate iptv sources
 
-GitHub: [iptv-sources](https://github.com/ccc-ju/iptv-sources)
+GitHub: [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources)
 
+Join discord: [![Discord](https://discord.badge.ibert.me/api/server/betxHcsTqa)](https://discord.gg/betxHcsTqa)
 
 Sources are from:
 
@@ -22,6 +23,9 @@ EPG Sources are from:
 - [112114.xyz](https://diyp1.112114.xyz)
 - [epg.51zmt.top:8000](http://epg.51zmt.top:8000/)
 
+## Matrix
+
+You can also use the services provided by Mirror Sites Matrix! See <https://m3u.ibert.me> for more.
 
 <!-- matrix_here -->
 ## Channel
@@ -45,7 +49,7 @@ EPG Sources are from:
 | epg.pw China National | [cn_n.m3u](/cn_n.m3u) <br> [cn_n.txt](/txt/cn_n.txt) | [List for epg.pw China National](/list/cn_n.list) | 8 | - |
 | epg.pw China Country | [cn_c.m3u](/cn_c.m3u) <br> [cn_c.txt](/txt/cn_c.txt) | [List for epg.pw China Country](/list/cn_c.list) | 104 | - |
 | epg.pw China Province | [cn_p.m3u](/cn_p.m3u) <br> [cn_p.txt](/txt/cn_p.txt) | [List for epg.pw China Province](/list/cn_p.list) | 34 | - |
-| epg.pw All | [all.m3u](/all.m3u) <br> [all.txt](/txt/all.txt) | [List for epg.pw All](/list/all.list) | 2121 | - |
+| epg.pw All | [all.m3u](/all.m3u) <br> [all.txt](/txt/all.txt) | [List for epg.pw All](/list/all.list) | 2125 | - |
 | qwerttvv/Beijing-IPTV IPTV Unicom | [q_bj_iptv_unicom.m3u](/q_bj_iptv_unicom.m3u) <br> [q_bj_iptv_unicom.txt](/txt/q_bj_iptv_unicom.txt) | [List for qwerttvv/Beijing-IPTV IPTV Unicom](/list/q_bj_iptv_unicom.list) | 137 | - |
 | qwerttvv/Beijing-IPTV IPTV Unicom Multicast | [q_bj_iptv_unicom_m.m3u](/q_bj_iptv_unicom_m.m3u) <br> [q_bj_iptv_unicom_m.txt](/txt/q_bj_iptv_unicom_m.txt) | [List for qwerttvv/Beijing-IPTV IPTV Unicom Multicast](/list/q_bj_iptv_unicom_m.list) | 137 | - |
 | qwerttvv/Beijing-IPTV IPTV Mobile | [q_bj_iptv_mobile.m3u](/q_bj_iptv_mobile.m3u) <br> [q_bj_iptv_mobile.txt](/txt/q_bj_iptv_mobile.txt) | [List for qwerttvv/Beijing-IPTV IPTV Mobile](/list/q_bj_iptv_mobile.list) | 135 | - |
@@ -61,9 +65,9 @@ EPG Sources are from:
 | 51zmt.top cc | [51zmt_cc.xml](/epg/51zmt_cc.xml) | - |
 | 51zmt.top difang | [51zmt_df.xml](/epg/51zmt_df.xml) | - |
 
-Updated at **Mon Jan 27 2025 01:37:41 GMT+0000 (Coordinated Universal Time)**
+Updated at **Mon Jan 27 2025 02:48:49 GMT+0000 (Coordinated Universal Time)**
 
-See <https://m3u.cjuju.us.kg/> to get more.
+See <https://m3u.ibert.me> to get more.
 
 ## LICENSE
 
