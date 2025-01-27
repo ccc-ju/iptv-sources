@@ -2,8 +2,9 @@
 
 Autoupdate iptv sources
 
-GitHub: [iptv-sources](https://github.com/ccc-ju/iptv-sources)
+GitHub: [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources)
 
+Join discord: [![Discord](https://discord.badge.ibert.me/api/server/betxHcsTqa)](https://discord.gg/betxHcsTqa)
 
 Sources are from:
 
@@ -22,6 +23,9 @@ EPG Sources are from:
 - [112114.xyz](https://diyp1.112114.xyz)
 - [epg.51zmt.top:8000](http://epg.51zmt.top:8000/)
 
+## Matrix
+
+You can also use the services provided by Mirror Sites Matrix! See <https://m3u.ibert.me> for more.
 
 <!-- matrix_here -->
 ## Channel
@@ -35,7 +39,7 @@ EPG Sources are from:
 | YanG-1989 Gather | [y_g.m3u](/y_g.m3u) <br> [y_g.txt](/txt/y_g.txt) | [List for YanG-1989 Gather](/list/y_g.list) | 128 | - |
 | joevess/IPTV home | [j_home.m3u](/j_home.m3u) <br> [j_home.txt](/txt/j_home.txt) | [List for joevess/IPTV home](/list/j_home.list) | 0 | - |
 | joevess/IPTV iptv | [j_iptv.m3u](/j_iptv.m3u) <br> [j_iptv.txt](/txt/j_iptv.txt) | [List for joevess/IPTV iptv](/list/j_iptv.list) | 0 | - |
-| iptv.org All | [o_all.m3u](/o_all.m3u) <br> [o_all.txt](/txt/o_all.txt) | [List for iptv.org All](/list/o_all.list) | 9790 | - |
+| iptv.org All | [o_all.m3u](/o_all.m3u) <br> [o_all.txt](/txt/o_all.txt) | [List for iptv.org All](/list/o_all.list) | 9792 | - |
 | iptv.org China | [o_cn.m3u](/o_cn.m3u) <br> [o_cn.txt](/txt/o_cn.txt) | [List for iptv.org China](/list/o_cn.list) | 541 | - |
 | iptv.org stream China | [o_s_cn.m3u](/o_s_cn.m3u) <br> [o_s_cn.txt](/txt/o_s_cn.txt) | [List for iptv.org stream China](/list/o_s_cn.list) | 506 | - |
 | iptv.org stream China 112114 | [o_s_cn_112114.m3u](/o_s_cn_112114.m3u) <br> [o_s_cn_112114.txt](/txt/o_s_cn_112114.txt) | [List for iptv.org stream China 112114](/list/o_s_cn_112114.list) | 18 | - |
@@ -61,9 +65,9 @@ EPG Sources are from:
 | 51zmt.top cc | [51zmt_cc.xml](/epg/51zmt_cc.xml) | - |
 | 51zmt.top difang | [51zmt_df.xml](/epg/51zmt_df.xml) | - |
 
-Updated at **Sun Jan 26 2025 22:17:17 GMT+0000 (Coordinated Universal Time)**
+Updated at **Mon Jan 27 2025 01:37:41 GMT+0000 (Coordinated Universal Time)**
 
-See <https://m3u.cjuju.us.kg/> to get more.
+See <https://m3u.ibert.me> to get more.
 
 ## LICENSE
 
