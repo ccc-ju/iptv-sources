@@ -4,7 +4,6 @@ Autoupdate iptv sources
 
 GitHub: [iptv-sources](https://github.com/ccc-ju/iptv-sources)
 
-
 Sources are from:
 
 - <https://epg.pw/test_channel_page.html>
