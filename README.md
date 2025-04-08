@@ -26,7 +26,7 @@ EPG Sources are from:
 - [112114.xyz](https://diyp1.112114.xyz)
 - [epg.51zmt.top:8000](http://epg.51zmt.top:8000/)
 
-See <https://m3u.cjuju.us.kg/> to get more.
+See <https://iptv.cjuju.us.kg/> to get more.
 
 ## Deploy by yourself
 
